@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Calculadora de notas</title>
+</head>
+<body>
+<!-- ===================================================================================== -->
+    <main>
+        <div class="centralizando">
+            <div class="div_gridada">
+                <div class="input-family">
+                    <input id='nota'type="number" placeholder="Insira as notas aqui">
+                    <button id='enviando'type="submit">Enviar nota</button>
+                    <button id="calcular" type="submit">Calcular media aritmetica</button> 
+                </div>
+                <div class="valores_notas">
+                    <span id="exibe1"></span>
+                    <span id="rta"></span>
+                </div>
+            </div>
+        </div>
+<!-- ===================================================================================== -->
+        <div class="centralizando2">
+            <div class="gridzinho">
+                <h3 id="h3">Se desejar fazer uso da media ponderada pressione o botão abaixo</h3>
+                <input id='peso' type="number" placeholder="Insira o peso das notas">
+                <div class="dentrodogridzinho">
+                    <button id="btnpd" type="submit">Media ponderada</button>
+                    <button id="calcular2" type="submit">Enviar peso</button>
+                    <button id="cpd" type="submit">Calcular media ponderada</button>  
+                </div>
+                <div class="valores_pesos">
+                    <span id="exibe2"></span>
+                </div>
+            </div>
+<!-- ===================================================================================== -->
+            <div>
+                <span id="rtp"></span>
+            </div>
+
+            <div>
+                <span id="result"></span>
+            </div>
+        </div>
+<!-- ===================================================================================== -->
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>
